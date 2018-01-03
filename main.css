@@ -75,7 +75,45 @@ nav a {
     margin-bottom: 25%;
 }
 
-#about_me {
+#table {
+    margin-top: 45%;
+}
+
+table {
+    margin: 0;
+    border: none;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+td {
+    margin: 0;
+    border: none;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+#about_me_description {
+    background-color: #558C89;
+    color: #ECECEA;
+    padding: 14.73%;
+    font-size: 1.5em;
+    font-family: Helvetica, sans-serif;
+    line-height: 136%;
+}
+
+#about_me_pic2 {
+    background-color: grey;
+}
+
+td img {
+    margin: 0;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/*#about_me {
     margin: 0;
     margin-top: 45%;
     background-color: #558C89;
@@ -107,7 +145,7 @@ nav a {
     width: 40%;
     margin: 0;
     margin-top: 45%;
-}
+}*/
 
 #projects {
     margin: 0;
