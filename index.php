@@ -60,9 +60,6 @@
         </div>
         
         <div id="projects" name="projects">
-            <!--<div id="project_title">
-                My Projects & Works
-            </div>-->
             <div class="left" id="project1">
                 <a href="https://github.com/StanleyHung0908/projects/tree/master/Games/SurvivalShooter">
                     <img src="survival_shooter.jpg" alt="survival_shooter" id="project1_pic" />
