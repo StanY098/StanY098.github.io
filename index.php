@@ -42,7 +42,7 @@
             </div>
             <br>
             <div id="description2" name="description2">
-                Never the best, always be better
+                Never be the best, always be better
             </div>
         </div>
         <div id="about_me" name="about_me">
