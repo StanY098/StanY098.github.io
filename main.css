@@ -9,7 +9,7 @@ body {
     font-family: monospace, serif;
     background: url(background.jpg);
     background-repeat: no-repeat;
-    background-size: 1600px 800px;
+    background-size: 2560px 1280px;
     top: 5%;
     background-attachment: fixed;
 }
@@ -21,12 +21,18 @@ div {
 #title {
     text-align: center;
     color: #ECECEA;
-    background-color: #74AFAD;
-    background-color: #946846;
+    /*background-color: #946846;*/
     font-size: 3em;
     font-style: italic;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
+    font-weight: bold;
+}
+
+#black {
+    color: black;
+    font-style: italic;
+    font-size: 1.1em;
 }
 
 nav {
@@ -85,8 +91,10 @@ nav a {
 #about_me {
     margin: 0;
     margin-top: 45%;
-    /*background-color: #558C89;*/
     color: #ECECEA;
+    background: url(background2.jpg);
+    background-size: 2560px;
+    
 }
 
 #about_me a {
@@ -100,15 +108,13 @@ nav a {
 
 #about_me_description {
     margin: 0;
-    background-color: #558C89;
-    background-color: #946846;
+    /*background-color: #946846;*/
     color: #ECECEA;
     font-size: 1.5em;
     font-family: Helvetica, sans-serif;
-    
     padding-top: 9.2%;
     padding-bottom: 9.3%;
-    padding-left: 35%;
+    padding-left: 40%;
     padding-right: 5%;
     line-height: 130%;
 }
@@ -120,10 +126,7 @@ nav a {
 }
 
 #about_me_pic {
-    float: left;
-    height: 100%;
-    width: 30%;
-    overflow: hidden;
+    display: none;
 }
 
 #about_me_pic img {
@@ -176,7 +179,6 @@ nav a {
 #project1_text, #project2_text, #project3_text, #project4_text, #project5_text, #project6_text {
     position: absolute;
     color: black;
-    background-color: #41b8f4;
     background-color: #E3C16F;
     top: 0;
     bottom: 0;
@@ -217,7 +219,6 @@ nav a {
     float: none;
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: #D9853B;
     background-color: #6D213C;
     color: #d9d9d9;
     font-family: Helvetica, sans-serif;
@@ -273,16 +274,90 @@ footer {
     font-family: monospace, serif;
 }
 
+@media only screen and (max-width: 1920px){
+    body {
+        background-size: 1920px 960px;
+    }
+    #about_me {
+        background-size: 1920px;
+    }
+}
+
+@media only screen and (max-width: 1680px){
+    body {
+        background-size: 1680px 840px;
+    }
+    #about_me {
+        background-size: 1680px;
+    }
+}
+
+@media only screen and (max-width: 1600px){
+    body {
+        background-size: 1600px 800px;
+    }
+    #about_me {
+        background-size: 1600px;
+    }
+}
+
+@media only screen and (max-width: 1440px){
+    body {
+        background-size: 1440px 720px;
+    }
+    #about_me {
+        background-size: 1440px;
+    }
+}
+
+@media only screen and (max-width: 1366px){
+    body {
+        background-size: 1366px 683px;
+    }
+    #about_me {
+        background-size: 1366px;
+    }
+}
+
+@media only screen and (max-width: 1360px){
+    body {
+        background-size: 1360px 680px;
+    }
+    #about_me {
+        background-size: 1360px;
+    }
+}
+
+@media only screen and (max-width: 1280px){
+    body {
+        background-size: 1280px 640px;
+    }
+    #about_me {
+        background-size: 1280px;
+    }
+}
+
 @media only screen and (max-width: 1200px){
+    body {
+        background-size: 1200px 600px;
+    }
     #header {
         top: 20%;
     }
     #about_me_pic {
+        display: block;
         float: none;
         width: 100%;
         margin: 0;
     }
+    #about_me_pic img {
+        position: relative;
+        margin-top: -3%;
+        margin-bottom: -2%;
+        width: 100%;
+    }
     #about_me_description {
+        background-color: #946846;
         padding-left: 5%;
     }
     .left {
@@ -304,7 +379,22 @@ footer {
     }
 }
 
+@media only screen and (max-width: 1024px){
+    body {
+        background-size: 1024px 512px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    body {
+        background-size: 992px 496px;
+    }
+}
+
 @media only screen and (max-width: 970px){
+    body {
+        background-size: 970px 485px;
+    }
     #project_title {
         font-size: 1.5em;
     }
@@ -312,3 +402,9 @@ footer {
         font-size: 0.7em;
     }
 }
+
+/*@media only screen and (max-width: 768px){
+    body {
+        background-size: 768px 384px;
+    }
+}*/
