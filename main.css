@@ -168,11 +168,11 @@ nav a {
     clear: both;
 }
 
-#project1, #project2, #project3, #project4, #project5, #project6, #project7 {
+#project1, #project2, #project3, #project4, #project5, #project6, #project7, #project8 {
     position: relative;
 }
 
-#project1_pic, #project2_pic, #project3_pic, #project4_pic, #project5_pic, #project6_pic, #project7_pic {
+#project1_pic, #project2_pic, #project3_pic, #project4_pic, #project5_pic, #project6_pic, #project7_pic, #project8_pic {
     display: block;
     width: 100%;
     height: 100%;
@@ -180,7 +180,7 @@ nav a {
     transition: 0.5s ease;
 }
 
-#project1_text, #project2_text, #project3_text, #project4_text, #project5_text, #project6_text, #project7_text {
+#project1_text, #project2_text, #project3_text, #project4_text, #project5_text, #project6_text, #project7_text, #project8_text {
     position: absolute;
     color: black;
     background-color: #E3C16F;
@@ -194,17 +194,17 @@ nav a {
     transition: 0.5s ease;
 }
 
-#project1:hover #project1_pic, #project2:hover #project2_pic, #project3:hover #project3_pic, #project4:hover #project4_pic, #project5:hover #project5_pic, #project6:hover #project6_pic, #project7:hover #project7_pic {
+#project1:hover #project1_pic, #project2:hover #project2_pic, #project3:hover #project3_pic, #project4:hover #project4_pic, #project5:hover #project5_pic, #project6:hover #project6_pic, #project7:hover #project7_pic, #project8:hover #project8_pic {
     opacity: 0.1;
     transition: 0.5s ease;
 }
 
-#project1:hover #project1_text, #project2:hover #project2_text, #project3:hover #project3_text, #project4:hover #project4_text, #project5:hover #project5_text, #project6:hover #project6_text, #project7:hover #project7_text {
+#project1:hover #project1_text, #project2:hover #project2_text, #project3:hover #project3_text, #project4:hover #project4_text, #project5:hover #project5_text, #project6:hover #project6_text, #project7:hover #project7_text, #project8:hover #project8_text {
     opacity: 0.5;
     transition: 0.5s ease;
 }
 
-#project1_title, #project2_title, #project3_title, #project4_title, #project5_title, #project6_title, #project7_title {
+#project1_title, #project2_title, #project3_title, #project4_title, #project5_title, #project6_title, #project7_title, #project8_title {
     position: absolute;
     font-weight: 900;
     top: 30%;
@@ -212,7 +212,7 @@ nav a {
     transform: translate(-50%,-50%);
 }
 
-#project1_description, #project2_description, #project3_description, #project4_description, #project5_description, #project6_description, #project7_description {
+#project1_description, #project2_description, #project3_description, #project4_description, #project5_description, #project6_description, #project7_description, #project8_description {
     position: absolute;
     top: 55%;
     left: 50%;
