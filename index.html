@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" xml:lang="en">
     <head>
-        <title>Stanley Hung - Programming Developer</title>
+        <title>FIND S TANLEY</title>
         <link rel="stylesheet" href="main.css">
         <link rel="shortcut icon" href="FindStanley.ico">
+        <meta name="viewport" content="width=device-with, initial-scale=1.0">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script language="javascript">
             /*$(function() {
@@ -19,158 +20,191 @@
         </script>
     </head>
     <body>
-        <div id="title" name="title">
-            FIND<span id="black">S</span>TANLEY
-        </div>
-        <nav>
-            <ul>
-                <li>
-                    <img src="threelines.png" alt="three_lines_menu" id="button" align="right" />
-                </li>
-                <li>
-                    <a href="#title" class="submenu">GO TO TOP</a>
-                </li>
-                <li>
-                    <a href="#about_me" class="submenu">ABOUT ME</a>
-                </li>
-                <li>
-                    <a href="#projects" class="submenu">PROJECTS</a>
-                </li>
-                <li>
-                    <a href="#contact_more" class="submenu">CONTACT & FIND MORE</a>
-                </li>
-            </ul>
-        </nav>
         <div id="header" name="header">
-            <div id="description" name="description">
-                Programming Developer
+            <div id="title" name="title">
+                <img src="Font.png" alt="title" />
             </div>
-            <br>
-            <div id="description2" name="description2">
+            <nav>
+                <ul>
+                    <li>
+                        <img src="threelines.png" alt="three_lines_menu" id="button" align="right" />
+                    </li>
+                    <li>
+                        <a href="#title" class="submenu">GO TO TOP</a>
+                    </li>
+                    <li>
+                        <a href="#about_me" class="submenu">ABOUT ME</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="submenu">PROJECTS</a>
+                    </li>
+                    <li>
+                        <a href="#contact_more" class="submenu">CONTACT & FIND MORE</a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="descriptions" name="descriptions">
+                Programming Developer<br>
                 Never be the best, always be better
+                <img src="background3-2.jpg" alt="background" align="center"/>
             </div>
         </div>
         <div id="about_me" name="about_me">
-            <div id="about_me_pic" name="about_me_pic">
-                <img src="me.jpg" alt="me" id="me" />
-            </div>
             <div id="about_me_description">
-               <div id="greeting" name="greeting">
-                    Hi, I am Stanley Hung.
-                </div>
                 <div id="introduction" name="introduction">
-                    I am a programming developer in Hong Kong. I love programming! I feel so excited to do anything related to coding. <br/><br/>The followings are my projects & works that I have done and I am doing:
+                    Hi, I am Stanley Hung. 
+                    I am a programming developer in Hong Kong. <br/>I love programming! I feel so excited to do anything related to coding. <br/>The followings are my projects & works that I have done and I am doing:
                 </div> 
             </div>
         </div>
         
         <div id="projects" name="projects">
-            <div class="left" id="project1">
-                <a href="https://github.com/StanleyHung0908/projects/tree/master/Games/SurvivalShooter">
-                    <img src="survival_shooter.jpg" alt="survival_shooter" id="project1_pic" />
-                    <div id="project1_text">
-                        <div id="project1_title">
-                            Survival Shooter
+            <div class="project">
+                <div class="pic-wrapper">
+                    <a href="https://github.com/StanleyHung0908/projects/tree/master/Games/SurvivalShooter">
+                        <img src="survival_shooter.jpg" alt="survival_shooter" class="project_pic" />
+                        <div class="direction">
+                            Click HERE to view documentation
                         </div>
-                        <div id="project1_description">
-                            A shooting game story with 3-level bosses (built by C# and Unity), with features of special moves, first person camera, high-score board and etc.
-                        </div>
+                    </a>
+                </div>
+                <div class="project_text">
+                    <div class="project_title">
+                        Survival Shooter
                     </div>
-                </a>
-            </div>
-            <div class="right" id="project2">
-                <a href="https://github.com/StanleyHung0908/projects/tree/master/Games/Tank">
-                    <img src="tank_network.jpg" alt="tank_network" id="project2_pic" />
-                    <div id="project2_text">
-                        <div id="project2_title">
-                            Tank
-                        </div>
-                        <div id="project2_description">
-                            A tank shooting game with network of maximum 4 game players at a time  (built by C# and Unity), with features of network lobby, customizing names and colors of tanks and etc.
-                        </div>
+                    <div class="project_description">
+                        A shooting game story with 3-level bosses (built by C# and Unity), with features of special moves, first person camera, high-score board and etc.
                     </div>
-                </a>
+                </div>
             </div>
-            <div class="left" id="project3">
-                <a href="https://github.com/StanleyHung0908/projects/tree/master/Client_Server/With_TCP/TCPIPClientServer">
-                    <img src="client_server.JPG" alt="TCP_Client_Server_Messenger" id="project3_pic" />
-                    <div id="project3_text">
-                        <div id="project3_title">
-                            Simple Messenger
-                        </div>
-                        <div id="project3_description">
-                            A simple TCP Server-Client Messenger built by C#, with features of customizing names, sending and receiving messages and etc.
-                        </div>
+            <div class="project">
+                <div class="project_text">
+                    <div class="project_title">
+                        Tank
                     </div>
-                </a>
-            </div>
-            <div class="right" id="project4">
-                <a href="https://stanleyhung0908.github.io/photographing/">
-                    <img src="phtographing_web.JPG" alt="photographing_web" id="project4_pic" />
-                    <div id="project4_text">
-                        <div id="project4_title">
-                            Photographing Beginner
-                        </div>
-                        <div id="project4_description">
-                            A website to introduce the basic knowledge of photographing, built mainly by HTML5 and CSS3 and also PHP5
-                        </div>
+                    <div class="project_description">
+                        A tank shooting game with network of maximum 4 game players at a time  (built by C# and Unity), with features of network lobby, customizing names and colors of tanks and etc.
                     </div>
-                </a>
+                </div>
+                <div class="pic-wrapper">
+                    <a href="https://github.com/StanleyHung0908/projects/tree/master/Games/Tank">
+                        <img src="tank_network.jpg" alt="tank_network" class="project_pic" />
+                        <div class="direction">
+                            Click HERE to view documentation
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="left" id="project5">
-                <a href="https://shoppinglistorganizer.wordpress.com/blog/">
-                    <img src="Shopping_List_Website.JPG" alt="shoppinglist_web" id="project5_pic" />
-                    <div id="project5_text">
-                        <div id="project5_title">
-                            Shopping List - Your Personal Organizer
+            <div class="project">
+                <div class="pic-wrapper">
+                    <a href="https://github.com/StanleyHung0908/projects/tree/master/Client_Server/With_TCP/TCPIPClientServer">
+                        <img src="messenger.jpg" alt="TCP_Client_Server_Messenger" class="project_pic" />
+                        <div class="direction">
+                            Click HERE to view documentation
                         </div>
-                        <div id="project5_description">
-                            Using WebPress as a homepage, a shopping list organizer for users to organize their shopping list, built mainly HTML5, CSS3 and PHP5 with features of organized list, weekly reminder, history tracing and online shop linking
-                        </div>
+                    </a>
+                </div>
+                <div class="project_text">
+                    <div class="project_title">
+                        Simple Messenger
                     </div>
-                </a>
-            </div>
-            <div class="right" id="project6">
-                <a href="http://dastan.is3.byuh.edu/EIS%20200/EIS/Student_Work_Schedule/schedule.php">
-                    <img src="Google_Spreadsheet.JPG" alt="google_transfer" id="project6_pic" />
-                    <div id="project6_text">
-                        <div id="project6_title">
-                            Google Data Transfer
-                        </div>
-                        <div id="project6_description">
-                            A page is built by trasnferring Google Spreadsheet data to the page, built by PHP5 and HTML5
-                        </div>
+                    <div class="project_description">
+                        A simple TCP Server-Client Messenger built by C#, with features of customizing names, sending and receiving messages and etc.
                     </div>
-                </a>
+                </div>
             </div>
-            <div class="left" id="project7">
-                <a href="https://stanleyhsblog.wordpress.com/">
-                    <img src="WordPress_Blog.jpg" alt="wordpress_blog" id="project7_pic" />
-                    <div id="project7_text">
-                        <div id="project7_title">
-                            WordPress Blog
-                        </div>
-                        <div id="project7_description">
-                            A personal blog that is built by WordPress
-                        </div>
+            <div class="project">
+                <div class="project_text">
+                    <div class="project_title">
+                        Photographing Beginner
                     </div>
-                </a>
+                    <div class="project_description">
+                        A website to introduce the basic knowledge of photographing, built mainly by HTML5 and CSS3 and also PHP5
+                    </div>
+                </div>
+                <div class="pic-wrapper">
+                    <a href="https://stanleyhung0908.github.io/photographing/">
+                        <img src="photographing.jpg" alt="photographing_web" class="project_pic" />
+                        <div class="direction">
+                            Click HERE to view site
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="right" id="project8">
+            <div class="project">
+                <div class="pic-wrapper">
+                    <a href="https://shoppinglistorganizer.wordpress.com/blog/">
+                        <img src="Shopping_List_Website.JPG" alt="shoppinglist_web" class="project_pic" />
+                        <div class="direction">
+                            Click HERE  to view site
+                        </div>
+                    </a>
+                </div>
+                <div class="project_text">
+                    <div class="project_title">
+                        Shopping List - Your Personal Organizer
+                    </div>
+                    <div class="project_description">
+                        Using WebPress as a homepage, a shopping list organizer for users to organize their shopping list, built mainly HTML5, CSS3 and PHP5 with features of organized list, weekly reminder, history tracing and online shop linking
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project_text">
+                    <div class="project_title">
+                        Google Data Transfer
+                    </div>
+                    <div class="project_description">
+                        A page is built by trasnferring Google Spreadsheet data to the page, built by PHP5 and HTML5
+                    </div>
+                </div>
+                <div class="pic-wrapper">
+                    <a href="http://dastan.is3.byuh.edu/EIS%20200/EIS/Student_Work_Schedule/schedule.php">
+                        <img src="data_transfer.JPG" alt="google_transfer" class="project_pic" />
+                        <div class="direction">
+                            Click HERE to view site
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="pic-wrapper">
+                    <a href="https://stanleyhsblog.wordpress.com/">
+                        <img src="wordpress_blog.jpg" alt="wordpress_blog" class="project_pic" />
+                        <div class="direction">
+                            Click HERE to view site
+                        </div>
+                    </a>
+                </div>
+                <div class="project_text">
+                    <div class="project_title">
+                        WordPress Blog
+                    </div>
+                    <div class="project_description">
+                        A personal blog that is built by WordPress
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project_text">
+                    <div class="project_title">
+                        Linux Administration
+                    </div>
+                    <div class="project_description">
+                        A group-styled linux server management for a Drupal website, with apache, database management, user management, etc.
+                    </div>
+                </div>
+                <div class="pic-wrapper">
                 <a href="http://ec2-54-213-134-33.us-west-2.compute.amazonaws.com/drupal/">
-                    <img src="Linux_Project.JPG" alt="BYUH Textbook" id="project8_pic" />
-                    <div id="project8_text">
-                        <div id="project8_title">
-                            Linux Administration (website may not be available anymore)
-                        </div>
-                        <div id="project8_description">
-                            A group-styled linux server management for a Drupal website, with apache, database management, user management, etc.
-                        </div>
+                    <img src="linux.png" alt="BYUH Textbook" class="project_pic" />
+                    <div class="direction">
+                        Click HERE to view documentation
                     </div>
                 </a>
+                </div>
             </div>
-            <div class="clear"></div>
         </div>
+        <hr />
         <div id="footer-wrapper">
             <div id="contact_more" name="contact_more">
                 <div id="contact">
@@ -178,23 +212,21 @@
                         Get In Touch
                     </div>
                     <div id="contatct_description">
-                        <p>Interested to work with me, know more about me, or just chat with me? Send me an email or give me a follow.</p>
+                        <p>&nbsp;Interested to work with me, know more about me, or just chat with me? Send me an email or give me a follow.</p>
                     </div>
                 </div>
                 <div id="contact_details">
-                    <div id="email" name="email">
-                        Email<br><a href="mailto:stanleyhung0908@gmail.com">stanleyhung0908@gmail.com</a>
+                    <div class="contact_methods" name="email">
+                        <span class="contact_title">Email:</span><br>&nbsp;<a href="mailto:stanleyhung0908@gmail.com">stanleyhung0908@gmail.com</a>
                     </div>
-                    <br>
-                    Other Links:
-                    <div id="linkedin" name="linkedin">
-                        <a href="https://www.linkedin.com/in/hing-yiu-stanley-hung-8b32a8133/">LinkedIn</a>
+                    <div class="contact_methods" name="linkedin">
+                        <span class="contact_title">LinkedIn:</span><br>&nbsp;<a href="https://www.linkedin.com/in/hing-yiu-stanley-hung-8b32a8133/">Stanley Hung</a>
                     </div>
-                    <div id="github" name="github">
-                        <a href="https://github.com/StanleyHung0908/projects">GitHub</a> - Click to see more work
+                    <div class="contact_methods" name="github">
+                        <span class="contact_title">GitHub:</span><br>&nbsp;<a href="https://github.com/StanleyHung0908/projects">StanleyHung0908</a>
                     </div>
-                    <div id="wordpress" name="wordpress">
-                        <a href="https://stanleyhsblog.wordpress.com/">Blog</a>
+                    <div class="contact_methods" name="wordpress">
+                        <span class="contact_title">Blog:</span><br>&nbsp;<a href="https://stanleyhsblog.wordpress.com/">Stanley Hung's Blog</a>
                     </div>
                 </div>
             </div>
