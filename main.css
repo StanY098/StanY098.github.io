@@ -73,7 +73,7 @@ nav a {
 }
 #about_me {
     margin: 0;
-    margin-top: 3%;
+    margin-top: 2%;
     margin-bottom: 8%;
     width: 100%;
 }
@@ -169,43 +169,54 @@ hr {
     margin: auto;
     margin-top: 50px;
 }
+#insider {
+    width: 100%;
+    margin: 0;
+    margin-top: 50px;
+}
 #footer-wrapper {
-    float: none;
     padding-top: 2%;
-    padding-bottom: 2%;
     width: 95%;
     margin: auto;
+    line-height: 30pt;
     background-color: black;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
 #contact_more {
     margin: 0;
     width: 97.5%;
+    display: inline-flex;
 }
 #contact {
     margin: 0;
-    width: 100%;
+    width: 35%;
 }
 #contact_title {
     width: 100%;
-    font-size: 230%;
+    font-size: 130%;
     color: #c7c1a9;
 }
 #contact_description {
     width: 100%;
     color: white;
-    font-size: 110%;
+    font-size: 105%;
+    padding-left: 3%;
 }
 #contact_details {
-    width: 100%;
+    width: 60%;
     margin: 0;
     display: inline-flex;
+    margin-left: 5%;
+}
+.row {
+    width: 100%;
+    margin: 0;
 }
 .contact_methods {
-    font-size: 105%;
-    width: 30%;
+    font-size: 100%;
+    width: 100%;
     padding-left: 1%;
     padding-right: 1%;
-    line-height: 20pt;
     word-wrap: break-word;
     
 }
@@ -221,13 +232,14 @@ hr {
     color: #c7c1a9;
 }
 footer {
-    text-align: center;
+    text-align: left;
     vertical-align: bottom;
     width: 100%;
-    font-size: 99%;
+    font-size: 85%;
     opacity: 0.9;
-    padding-top: 1%;
+    margin: 0;
 }
+
 @media only screen and (max-width: 768px){
     body {
         background-position: center 2%;
@@ -285,20 +297,25 @@ footer {
     #contact_more {
         font-size: 80%;
         width: 100%;
+        display: inline-block;
+    }
+    #contact {
+        width: 100%;
     }
     #contact_details {
         display: inline-block;
+        margin-left: 0;
         width: 100%;
     }
     .contact_methods {
         width: 100%;
         padding: 0;
-        line-height: 20pt;
+        line-height: 30pt;
     }
-    #contact_details a {
-        text-decoration: underline;
+    #contact_details a:hover {
+        text-decoration: none;
     }
     footer {
-        margin-top: 20px;
+        text-align: center;
     }
 }

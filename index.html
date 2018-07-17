@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="en" xml:lang="en">
     <head>
-        <title>FIND S TANLEY</title>
+        <title>FINDSTANLEY</title>
         <link rel="stylesheet" href="main.css">
         <link rel="shortcut icon" href="FindStanley.ico">
         <meta name="viewport" content="width=device-with, initial-scale=1.0">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script language="javascript">
-            /*$(function() {
-                $("ul").hover(function(){
-                    $('.submenu').slideToggle();
-                });
-            });*/
             $(function() {
-                $("ul").click(function(){
+                $("#redirect").hover(function(){
                     $('.submenu').slideToggle();
                 });
             });
+            /*$(function() {
+                $("ul").click(function(){
+                    $('.submenu').slideToggle();
+                });
+            });*/
         </script>
     </head>
     <body>
+        <span id="top">&nbsp;</span>
         <div id="header" name="header">
             <div id="title" name="title">
                 <img src="Font.png" alt="title" />
             </div>
             <nav>
-                <ul>
+                <ul id="redirect">
                     <li>
                         <img src="threelines.png" alt="three_lines_menu" id="button" align="right" />
                     </li>
                     <li>
-                        <a href="#title" class="submenu">GO TO TOP</a>
+                        <a href="#top" class="submenu">GO TO TOP</a>
                     </li>
                     <li>
                         <a href="#about_me" class="submenu">ABOUT ME</a>
@@ -46,8 +47,9 @@
             <div id="descriptions" name="descriptions">
                 Programming Developer<br>
                 Never be the best, always be better
-                <img src="background3-2.jpg" alt="background" align="center"/>
+                <img src="background.jpg" alt="background" align="center"/>
             </div>
+            <span id="about_me">&nbsp;</span>
         </div>
         <div id="about_me" name="about_me">
             <div id="about_me_description">
@@ -134,7 +136,7 @@
             <div class="project">
                 <div class="pic-wrapper">
                     <a href="https://shoppinglistorganizer.wordpress.com/blog/">
-                        <img src="Shopping_List_Website.JPG" alt="shoppinglist_web" class="project_pic" />
+                        <img src="shopping_cart.jpg" alt="shoppinglist_web" class="project_pic" />
                         <div class="direction">
                             Click HERE  to view site
                         </div>
@@ -211,25 +213,30 @@
                     <div id="contact_title">
                         Get In Touch
                     </div>
-                    <div id="contatct_description">
-                        <p>&nbsp;Interested to work with me, know more about me, or just chat with me? Send me an email or give me a follow.</p>
+                    <div id="contact_description">
+                        <p>Interested to work with me, know more about me, or just chat with me? Send me an email or give me a follow.</p>
                     </div>
                 </div>
                 <div id="contact_details">
-                    <div class="contact_methods" name="email">
-                        <span class="contact_title">Email:</span><br>&nbsp;<a href="mailto:stanleyhung0908@gmail.com">stanleyhung0908@gmail.com</a>
+                    <div class="row">
+                        <div class="contact_methods" name="email">
+                            <span class="contact_title">Email:</span><br>&nbsp;>&nbsp;<a href="mailto:stanleyhung0908@gmail.com">stanleyhung0908@gmail.com<!--stanleyhung.work@gmail.com--></a>
+                        </div>
+                        <div class="contact_methods" name="linkedin">
+                            <span class="contact_title">LinkedIn:</span><br>&nbsp;>&nbsp;<a href="https://www.linkedin.com/in/hing-yiu-stanley-hung-8b32a8133/">Stanley Hung</a>
+                        </div>
                     </div>
-                    <div class="contact_methods" name="linkedin">
-                        <span class="contact_title">LinkedIn:</span><br>&nbsp;<a href="https://www.linkedin.com/in/hing-yiu-stanley-hung-8b32a8133/">Stanley Hung</a>
-                    </div>
-                    <div class="contact_methods" name="github">
-                        <span class="contact_title">GitHub:</span><br>&nbsp;<a href="https://github.com/StanleyHung0908/projects">StanleyHung0908</a>
-                    </div>
-                    <div class="contact_methods" name="wordpress">
-                        <span class="contact_title">Blog:</span><br>&nbsp;<a href="https://stanleyhsblog.wordpress.com/">Stanley Hung's Blog</a>
+                    <div class="row">
+                        <div class="contact_methods" name="github">
+                            <span class="contact_title">GitHub:</span><br>&nbsp;>&nbsp;<a href="https://github.com/StanleyHung0908/projects">StanleyHung0908</a>
+                        </div>
+                        <div class="contact_methods" name="wordpress">
+                            <span class="contact_title">Blog:</span><br>&nbsp;>&nbsp;<a href="https://stanleyhsblog.wordpress.com/">Stanley's Blog</a>
+                        </div>
                     </div>
                 </div>
             </div>
+            <hr id="insider" />
             <footer>
                 Copyright &copy; 2018 Stanley Hung
             </footer>
