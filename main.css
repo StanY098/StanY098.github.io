@@ -247,8 +247,7 @@ footer {
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-    background: white; 
-    border-radius: 5px;
+    background: white;
 }
 
 @media only screen and (max-width: 768px){
